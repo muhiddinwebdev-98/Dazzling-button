@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #02171B;
+}
+
+header {
+    margin-top: 200px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 410px;
+    gap: 50px;
+    padding: 20px;
+    border-radius: 8px;
+    border-style: dashed;
+    margin: 0 auto;
+    border-color: #12d598;
+}
+
+.button:hover {
+    border: 2px solid #14E7C6;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.button__prepend {
+    width: 60px;
+    border-color: #12d598;
+    border-radius: 8px;
+    padding: 4px;
+    border-style: dashed;
+}
+
+.button__prepend:hover {
+    border: 2px solid #14E7C6;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.button__body {
+    width: 180px;
+    font-size: 16px;
+    font-weight: bold;
+    border-color: #12d598;
+    border-radius: 8px;
+    padding: 20px;
+    margin-right: 25px;
+    border-style: dashed;
+    color: #ffffff;
+    position: relative;
+    left: 10px;
+}
+
+.button__body:hover {
+    border: 2px solid #14E7C6;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.button__append {
+    width: 60px;
+    border-color: #12d598;
+    border-radius: 8px;
+    padding: 4px;
+    border-style: dashed;
+}
+
+.button__append:hover {
+    border: 2px solid #14E7C6;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
